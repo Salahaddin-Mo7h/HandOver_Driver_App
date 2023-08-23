@@ -1,4 +1,3 @@
-
 abstract class UberAuthRepository {
   Future<bool> uberAuthIsSignIn();
   Future<void> uberAuthPhoneVerification(String phoneNumber);
@@ -7,5 +6,4 @@ abstract class UberAuthRepository {
   Future<bool> uberAuthCheckUserStatus(String docId);
   Future<void> uberAuthSignOut();
   Future<String> uberAddProfileImg(String driverId);
-
 }
